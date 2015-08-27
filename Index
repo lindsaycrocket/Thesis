@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Iron Skies</title>
+
+<!-- SMINT PLUGIN: Navagation Menu -->
+
+<meta name = "keywords" content = "SMINT jQuery Plugin, SMINT, jQuery Plugin, One Page Website, Sticky Navigation" />
+<meta name = "description" content = "SMINT is a simple plugin for lovers of one page websites, which helps with sticky menus and page scrolling." />
+<meta name="viewport" content="width=device-width">
+
+<!-- CSS Polygon -->
+
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script	src="js/jquery.smint.js" type="text/javascript" ></script>
+
+
+<link href="css/polyfill.object-fit.css" rel="stylesheet" type="text/css">
+
+
+<!-- SMINT PLUGIN: Navagation Menu -->
+<script type="text/javascript">
+	
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+});
+
+
+</script>
+
+
+</head>
+<body>
+<center>
+<div class="wrap ">
+	<div class="section sTop">
+		<div class="inner">
+		
+<!-- Stock Footage: Loch. Iron Skies title -->
+
+
+			<video width="100%" height="100%" autoplay loop>
+  <source src="video/skystock.mp4.mp4" type="video/mp4">
+
+  		  </video>
+		  
+<!-- Video controls for to play when loaded and to loop -->
+
+
+	</div>
+		
+		</div>
+<!-- Navagation Menu -->
+
+		<div class="subMenu" >
+		 	<div class="inner">
+		 		<a href="#sTop" class="subNavBtn">Top</a>
+		 		<a href="#s1" class="subNavBtn">1</a> 
+				<a href="#s2" class="subNavBtn">2</a>
+				<a href="#s3" class="subNavBtn">3</a>
+				<a href="#s4" class="subNavBtn">4</a>
+				<a href="#s5" class="subNavBtn">5</a>
+				<a href="#s6" class="subNavBtn">6</a>
+			</div>
+		</div>
+
+<!-- Secrion 1: Introduction -->
+		
+		<div class="section s1">
+			 <div class="inner ">
+	
+
+<!-- Piktochart iframe: Section 1 Title -->
+			
+<iframe width="700" height="2841" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7282459-intro"></iframe>
+		
+		</div>
+		
+			  </div>
+		
+
+<!-- Secrion 2: Timeline -->
+
+		<div class="section s2">
+			 <div class="inner">
+		
+<!-- Piktochart iframe: Section 2 Title -->
+			
+<iframe width="700" height="399" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7347037-background"></iframe>
+
+
+<!-- TimelineJS iframe: Timeline -->
+			
+<iframe src='https://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=1LN7JnC-M245wjV4WkkbqbBI7Kdx50xBcjW5rvuUDNfs&font=PoiretOne-Molengo&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
+
+		     </div>
+		</div>
+
+
+<!-- Section 3: Social & Economic -->
+
+		<div class="section s3">
+			 <div class="inner">
+			
+			
+<!-- Piktochart iframe: Section 3 Title -->
+
+<iframe width="700" height="2782" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7347782-background"></iframe>
+
+<!-- Google Charts iframe: Child Poverty Graph -->
+		
+<iframe width="900" height="485" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/18URFXp2Enwitfjd5AOdqHhnAkxjsdTf9jeyfUvmPFvo/pubchart?oid=603878786&amp;format=interactive"></iframe>
+
+<!-- Piktochart iframe: Deprivation Graph Title-->
+
+<iframe width="700" height="230" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7449134-background-child"></iframe>
+
+<!-- Google Charts iframe: Deprivation Graph-->
+
+<iframe width="900" height="520" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/12vMcuebf2rfPX7-VThE8BBmlKH6ByBLXSQB-3lterLQ/pubchart?oid=1907797078&amp;format=interactive"></iframe>
+
+<!-- Piktochart iframe: Child Poverty & Deprivation Map Title-->
+
+<iframe width="700" height="428" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7445137-background-map"></iframe>
+
+<br>
+
+<!-- Google Fusion Table iframe: Child Poverty Map-->
+
+<iframe width="350" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col2%3E%3E0+from+1a9T-fq1DpePpOitsN7yaOFC2rr-DURY0lkDZY7SQ&amp;viz=MAP&amp;h=false&amp;lat=57.70627970360792&amp;lng=-3.3992383749999817&amp;t=1&amp;z=6&amp;l=col2%3E%3E0&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>		
+
+<!-- Google Fusion Table iframe: Deprivation Map-->
+		
+<iframe width="350" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col2%3E%3E0+from+1KmPBC_rNDabQIVOzLUGxPkiA5JI5xkhQJJezCvcV&amp;viz=MAP&amp;h=false&amp;lat=57.16224267706876&amp;lng=-3.1520459921874817&amp;t=1&amp;z=6&amp;l=col2%3E%3E0&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>
+		
+			</div>
+		</div>
+		
+
+
+<!-- Section 4: Referendum -->		
+		
+	<div class="section s4">
+		<div class="inner">
+		
+<!-- Piktochart iframe: Section 4 Title -->
+		
+<iframe width="700" height="5851" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7179784-untitled-infographic"></iframe>
+	
+<!-- Scroll box -->
+		
+<div style="width:750px;height:400px;overflow:scroll;overflow-y:scroll;overflow-x:hidden;">
+
+<!-- Piktochart iframe: Constituancies -->
+
+<iframe width="650" height="4800" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7145609-new-infographic"></iframe>
+
+</div>
+
+<!-- Page Breaks -->
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<!-- Piktochart iframe: Results Map Title-->
+
+<iframe width="900" height="346" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7283912-map"></iframe>
+
+<br>
+
+<!-- Google Fusion Table iframe: Results Turnout Map-->
+
+<iframe width="350" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col2%3E%3E0+from+1E7XeuGwQlqskXLZQrJFazlaEfB_Ep0JOA0SS5SqL&amp;viz=MAP&amp;h=false&amp;lat=57.998570028979735&amp;lng=-0.08136728124998438&amp;t=1&amp;z=6&amp;l=col2%3E%3E0&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>
+
+<!-- Google Fusion Table iframe: Results Majority Swing Map-->
+
+<iframe width="350" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col2%3E%3E0+from+1FY01V-kTHpMZ1wW66RoE1zM7smnDL7xlPCuROBnS&amp;viz=MAP&amp;h=false&amp;lat=57.718016905790485&amp;lng=-1.8172071249999817&amp;t=1&amp;z=6&amp;l=col2%3E%3E0&amp;y=2&amp;tmplt=2&amp;hml=KML"></iframe>	
+
+<br>
+<br>
+<br>
+
+<!-- Piktochart iframe: Meia Influence-->
+
+<iframe width="700" height="1304" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7374252-bbc-ref"></iframe>
+
+	</div>
+		</div>
+	
+
+<!-- Section 5: SNP Development -->		
+	
+			<div class="section s5">
+		<div class="inner">
+
+<!-- Piktochart iframe: Section 5 title-->		
+		
+<iframe width="700" height="3256" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7277773-snp"></iframe>
+		
+		</div>
+			</div>
+	
+	
+<!-- Section 6: General Election -->		
+	
+			<div class="section s6">
+		<div class="inner">
+		
+<!-- Piktochart iframe: Section 6 title-->		 
+		
+<iframe width="700" height="4618" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7269301-general-election"></iframe>
+
+<!-- Google Charts iframe: Party Seats Gain/Loss Chart -->
+			
+<iframe width="850" height="450" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1WSQPDzYQHgBeumic63N8aNsaGSzqIn0diViH-E4cd3k/pubchart?oid=559148482&amp;format=interactive"></iframe>
+
+<!-- Piktochart iframe: Scottish Results Graph Title-->
+
+<iframe width="700" height="148" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7511298-ge-scotland-seats"></iframe>
+
+<!-- Google Charts iframe: Scottish Results :2010-2015 -->
+
+<iframe width="853" height="450" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/1WSQPDzYQHgBeumic63N8aNsaGSzqIn0diViH-E4cd3k/pubchart?oid=1975978545&amp;format=interactive"></iframe>
+
+<!-- Piktochart iframe: Analysis-->		
+
+<iframe width="700" height="907" frameborder="0" scrolling="no" style="overflow-y:hidden;" src="https://magic.piktochart.com/embed/7511095-conclusion"></iframe>
+	
+		</div>
+	</div>
+	
+	
+	
+	
+	
+
+</div>
+
+<!-- Polygon Script-->		
+
+<script src="js/polyfill.object-fit.min.js"> </script>
+
+<script>
+    objectFit.polyfill({
+        selector: 'img', // this can be any CSS selector
+        fittype: 'cover', // either contain, cover, fill or none
+        disableCrossDomain: 'true' // either 'true' or 'false' to not parse external CSS files.
+    });
+</script>
+
+</center>	
+</body>
+</html>
